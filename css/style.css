@@ -1,7 +1,8 @@
 /* All CSS */
 body 
 {
-    background-color: #F9F9F9;
+    background-color: #f4f1f1;
+    overflow: hidden;
 }
     /* Nav Bar */
     .navbar-icon
@@ -9,8 +10,79 @@ body
         margin-left: 5%;
     }
 
-    .navbar-nav
+    .navbar-nav 
     {
         margin-right: 5%;
     }
+
+    .nav-link
+    {
+        color: white;
+        font-family: 'Cormorant Infant'
+    }
+
+
+
+
+
+/* Page Segments */
+.segment-container
+{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.page-segment
+{
+    /* Takes up all avaliable visible space */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+
+/* About Me Segment*/
+.resume-button
+{
+    color: black;
+}
+
+.resume-button:hover
+{
+    color: grey;
+}
+
+#name
+{
+    font-size:450%;
+    font-family: 'Indie Flower';
+}
+
+#description
+{
+    font-size:125%;
+}
+
+
+
+/* Skills and Experience Segment*/
+
+.segment2-color
+{
+    background-color: #262626;
+    height: 50px;
+}
+
+
+.segment2-table
+{
+    background-color: #f4f1f1;
+    height: 50%;
+    width: 75%;
+}
+
+    
 
